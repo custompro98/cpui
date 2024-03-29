@@ -41,7 +41,7 @@ export default function Table({ data }: Props) {
           >
             {data.columns.map((column) => (
               <TCell
-                key={`${row.key}-${column.key}`}
+                key={`${row.key.toString()}-${column.key}`}
                 type="body"
                 align={column.align}
               >
