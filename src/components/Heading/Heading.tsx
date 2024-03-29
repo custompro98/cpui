@@ -10,7 +10,9 @@ export default function Heading({ children, type }: Props) {
   switch (type) {
     case "primary":
       return (
-        <h1 className={`font-serif text-3xl font-extrabold`}>{children}</h1>
+        <h1 className={`col-span-full font-serif text-3xl font-extrabold`}>
+          {children}
+        </h1>
       );
     case "secondary":
       return <h2 className="pb-8 font-serif text-2xl font-bold">{children}</h2>;

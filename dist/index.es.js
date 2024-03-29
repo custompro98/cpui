@@ -635,7 +635,7 @@ function Oe(i) {
 function vr({ children: i, type: f }) {
   switch (f) {
     case "primary":
-      return /* @__PURE__ */ p.jsx("h1", { className: "font-serif text-3xl font-extrabold", children: i });
+      return /* @__PURE__ */ p.jsx("h1", { className: "col-span-full font-serif text-3xl font-extrabold", children: i });
     case "secondary":
       return /* @__PURE__ */ p.jsx("h2", { className: "pb-8 font-serif text-2xl font-bold", children: i });
     case "section":
